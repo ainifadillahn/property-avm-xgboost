@@ -1,0 +1,33 @@
+{
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "shap": "0.54.1",
+    "optuna": "5.0.0"
+  },
+  "config": {
+    "DEBUG": false,
+    "SEED": 42,
+    "SAMPLE_N": 400000,
+    "N_TRIALS": 30,
+    "SEARCH_FRAC": 0.25,
+    "GEO_FOLDS": 5,
+    "RUN_STACKING": true,
+    "RUN_GEO_CV": true,
+    "RUN_MODEL_CV": false,
+    "SPLIT_MODE": "random",
+    "PRICE_MIN": 10000,
+    "PRICE_MAX": 5000000,
+    "HS_MIN": 200,
+    "HS_MAX": 15000,
+    "OUT_DIR": "outputs",
+    "STUDY_TAG": "v4",
+    "STORAGE": "sqlite:///optuna_full.db"
+  }
+}

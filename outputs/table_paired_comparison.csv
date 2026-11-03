@@ -1,0 +1,5 @@
+Pembanding,ΔMAE_USD (XGB − pembanding),CI95 per-baris,CI95 per-cluster ZIP,CI Bonferroni per-cluster ZIP,p Wilcoxon,p Holm,Interpretasi (Bonferroni CI)
+Random Forest,-2314.970912196369,"[-2,806; -1,789]","[-2,834; -1,774]","[-2,977; -1,603]",1.1224491719547765e-24,4.489796687819106e-24,XGBoost lebih kecil
+LightGBM,22.689650259724832,[-283; 311],[-297; 326],[-370; 398],0.08978945489264943,0.17957890978529886,tidak dapat dibedakan
+CatBoost,-358.9327679072249,[-708; -7],[-721; -20],[-843; 73],0.17986100117353943,0.17986100117353943,tidak dapat dibedakan
+Stacking,457.6454601380701,[241; 657],[237; 674],[156; 721],1.2618928467973484e-06,3.785678540392045e-06,XGBoost lebih besar

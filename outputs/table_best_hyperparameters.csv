@@ -1,0 +1,5 @@
+Model,"Best CV R2 (log, 25% data)",N trial,param:n_estimators,param:learning_rate,param:num_leaves,param:min_child_samples,param:subsample,param:colsample_bytree,param:reg_lambda,param:reg_alpha,param:max_depth,param:min_child_weight,param:iterations,param:depth,param:l2_leaf_reg,param:min_samples_split,param:min_samples_leaf,param:max_features
+LightGBM,0.7974215491285804,30,1004.0,0.03884247905950703,79.0,14.0,0.895078830362237,0.6031315065552628,0.2123679468901839,0.0037561829611147063,,,,,,,,
+XGBoost,0.7961821728813625,30,1011.0,0.023936155479847846,,,0.756407584977042,0.9815221834248236,0.08792659215220651,0.0038955048066202,8.0,5.0,,,,,,
+CatBoost,0.7975268557381986,30,,0.04030089378011933,,,,,,,,,1002.0,10.0,1.8211762712186754,,,
+Random Forest,0.7784278592051406,30,124.0,,,,,,,,26.0,,,,,11.0,3.0,0.45399749995933647

@@ -1,0 +1,5 @@
+Langkah,Sebelum,Sesudah,Dibuang,% dari awal
+"price di luar [10,000; 5,000,000] USD",400000,394043,5957,1.49
+house_size kosong (wajib: dipakai untuk price-per-sqft & base_estimate),394043,295390,98653,24.66
+"house_size di luar [200; 15,000] sqft",295390,295195,195,0.05
+baris duplikat persis,295195,295195,0,0.0

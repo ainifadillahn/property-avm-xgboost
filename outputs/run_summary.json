@@ -1,0 +1,43 @@
+{
+  "fit_seconds": {
+    "Random Forest": 286.5860929489136,
+    "LightGBM": 43.11463189125061,
+    "CatBoost": 176.6058988571167,
+    "XGBoost": 55.93995141983032
+  },
+  "best_params": {
+    "LightGBM": {
+      "n_estimators": 1004,
+      "learning_rate": 0.03884247905950703,
+      "num_leaves": 79,
+      "min_child_samples": 14,
+      "subsample": 0.895078830362237,
+      "colsample_bytree": 0.6031315065552628,
+      "reg_lambda": 0.2123679468901839,
+      "reg_alpha": 0.0037561829611147063
+    },
+    "XGBoost": {
+      "n_estimators": 1011,
+      "max_depth": 8,
+      "learning_rate": 0.023936155479847846,
+      "subsample": 0.756407584977042,
+      "colsample_bytree": 0.9815221834248236,
+      "min_child_weight": 5,
+      "reg_lambda": 0.08792659215220651,
+      "reg_alpha": 0.0038955048066202
+    },
+    "CatBoost": {
+      "iterations": 1002,
+      "learning_rate": 0.04030089378011933,
+      "depth": 10,
+      "l2_leaf_reg": 1.8211762712186754
+    },
+    "Random Forest": {
+      "n_estimators": 124,
+      "max_depth": 26,
+      "min_samples_split": 11,
+      "min_samples_leaf": 3,
+      "max_features": 0.45399749995933647
+    }
+  }
+}
