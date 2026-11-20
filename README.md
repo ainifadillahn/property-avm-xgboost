@@ -1,6 +1,6 @@
 # Explainable Automated Valuation Model (AVM) Based on Leakage-Resistant Spatial Feature Engineering
 
-Code, configuration, and result tables for the manuscript submitted to the *International Journal of Advances in Data and Information Systems (IJADIS)*.
+Code, configuration, and result tables for the manuscript submitted to the *Jurnal Ekonomi Kreatif dan Manajemen Bisnis Digital (JEKOMBITAL)*.
 
 ## Summary
 
